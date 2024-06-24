@@ -1,0 +1,28 @@
+##10. Define a simple "spelling correction" function correct() that takes a
+##string and sees to it that
+##1) two or more occurrences of the space character is compressed into one, and
+##2) inserts an extra space after a period if the period is directly followed
+##by a letter.
+##e.g. correct("This is very     funny and cool.Indeed!")
+##should return "This is very funny and cool. Indeed!"
+
+def correct(str1):
+    lst = []
+    str1=str1.replace("  "," ")
+    cnt=str1.count("  ")
+    while cnt:
+        str1=str1.replace("  "," ")
+        cnt=str1.count("  ")
+    pos=str1.find(".")
+    while pos!=-1:
+        if len(str1)>(pos+1):
+            if str1[pos+1].isspace():
+                pass
+            else:
+                str1 = str1[:pos+1]+ " " +str1[pos+1:]
+        pos=str1.find(".",pos+1)
+    return str1
+
+str1 = input("Enter string for spelling correction: ")
+print ("Corrected string:",correct(str1))
+

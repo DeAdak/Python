@@ -1,0 +1,25 @@
+modules , packages,scope variable (local variable,lambda,filter,map,reduce
+loop comprehensive, expansion operator * and **,recurssive functions
+
+
+def f1(a=34,b=45):  0, 1, 2 
+     a=23
+     b=34
+     return a,b
+
+int,string --- call by value -----> changes in value, will not get reflected 
+outside function
+
+list,set,dictionary ---- call by reference----> changes will get reflected 
+                                                outside the function
+
+expansion operator ---- *   **
+
+
+def f1(a,b,*t):
+    print(a,b) # print value of a and b
+    print(t)  #t is a tuple
+
+f1(12,13,45,46,37,27,18,67)
+
+

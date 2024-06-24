@@ -1,0 +1,37 @@
+Method								Description
+add(element/immutable iterable)		Adds an element/immutable iterable(tuple) to the set, If the element already exists, the add() method does not add the element.
+update(iterable)					Update the set with another set, or any other iterable
+
+clear()			Removes all the elements from the set
+discard(value)	Remove the specified item, discard() method will not raise an error if the specified item does not exist.
+pop()			Removes a random element from the set
+remove(value)	Removes the specified element, will raise an KeyError if the specified item does not exist
+
+copy()			Returns a copy of the set
+
+difference(set)					Returns a set containing the difference between two or more sets, S1-S2
+difference_update(set)			Removes the items from the set, those are also present in another specified set
+intersection(set) AND			Returns a set, that is the intersection of two or more sets, S1&S2
+intersection_update(set)		Keeps the items in the set that also present in other, specified set(s)
+symmetric_difference(set) XOR	Returns a set with the symmetric differences of two sets,  S1^S2
+symmetric_difference_update(set)	inserts the symmetric differences from this set and another
+union(set1, set2...) OR			Return a set containing the union of sets, S1|S2
+
+isdisjoint(set)		Returns whether two sets have a intersection or not, T: no intersection exist, F: intersection exist
+issubset(set)		Returns whether another set contains this set or not, S1<S2
+issuperset(set)		Returns whether this set contains another set or not, S1>S2
+
+-------------------------FROZEN SET--------------------------------------------
+
+Method				Description
+copy()				Returns a copy of the set
+
+difference(set)			Returns a set containing the difference between two or more sets
+intersection(set)		Returns a set, that is the intersection of two or more sets
+symmetric_difference(set)	Returns a set with the symmetric differences of two sets
+union(set1, set2...)		Return a set containing the union of sets
+
+isdisjoint(set)		Returns whether two sets have a intersection or not, T: no intersection exist, F: intersection exist
+issubset(set)		Returns whether another set contains this set or not 
+issuperset(set)		Returns whether this set contains another set or not
+

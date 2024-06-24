@@ -1,0 +1,18 @@
+Method				Description
+dict_name['key'] = value, add/overwrite new key-value pair
+setdefault(key, value)	If the key does not exist: insert the key-value pair, if key exist Returns the value of the specified key. 
+update(dict_name)	Updates the dictionary with the specified key-value pairs
+
+items()		Returns a list containing a tuple for each key value pair
+keys()		Returns a list containing the dictionary's keys
+values()	Returns a list of all the values in the dictionary
+get(key,val)	Returns the value of the specified 'key', if the specified key does not exist returns val, Default value is None
+
+clear()			Removes all the elements from the dictionary
+pop(key, defaultvalue)	Removes the element with the specified key, Return defaultvalue if the specified key do not exist.
+					If this parameter is not specified, and the no item with the specified key is found, an error is raised
+popitem()		Removes the last inserted key-value pair, KeyError: 'popitem(): dictionary is empty'
+
+copy()		Returns a copy of the dictionary
+fromkeys(keys, value)	Returns a dictionary with the specified keys and value
+

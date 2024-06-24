@@ -1,0 +1,19 @@
+.---- matches with any one characters
+?- 0 or 1 occurence
+* -- 0 or any number of occurences
++ --- 1 or more occurances
+{m}---- exactly m occurances  
+{m,n} ---- minimum m occurance and maximum n occurances
+[A-Za-z] -- matcheswith one alphabate
+[0-9]    ---mtches with one digit
+
+^ ----starts with
+$--- ends with
+\d ---  matches with 1 digit [0-9]
+\D ---- matches with non digit character [^0-9]
+\w ---- matches with any word character  [A-Za-z_0-9]
+\W --- matches with any non word character [^A-za-z0-9_]
+\s ---- matches with space character
+\S ---- matches with non space character
+\b ----- boundry character
+\B -----matchs with any non boundry characters

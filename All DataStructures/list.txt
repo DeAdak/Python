@@ -1,0 +1,18 @@
+Method						Description
+append(element)				Adds an element at the end of the list
+extend(list/set/tuple)		Add the elements of a list (or any iterable), to the end of the current list
+insert(position, element)	Adds an element at the specified position
+
+clear()				Removes all the elements from the list
+pop(position)		Removes the element at the specified position, IndexError: pop index out of range
+remove(element)		Removes the first item with the specified value ValueError: list.remove(x): x not in list
+
+copy()			Returns a copy of the list
+count(value)	Returns the number of elements with the specified value
+
+index(element)	Returns the index of the first element with the specified value, ValueError: element is not in list
+
+reverse()		Reverses the order of the list				|
+sort(reverse=True|False, key=myFunc)		Sorts the list	| Homogeneous data
+def myFunc(e):												|
+  	return len(e)											|

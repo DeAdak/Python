@@ -1,0 +1,34 @@
+Tuple
+house = ("Bangalore","India",2020,2018,4)
+The tuple house contains five items that describe the house, namely, the city, the country, 
+the year of construction, the area in sq. ft., and the number of rooms it has.
+
+Dictionary
+house = {"city":"Bangalore","country":"India","year":2020,"area":2018,"num_rooms":4}
+"city", "country", "year", "area" and "num_rooms" are the keys.
+And the values from the tuple, "Bangalore", "India", 2020, 2018, and 4 are used as the values corresponding to the keys.
+You can access the values using the keys: house["city"] to get "Bangalore", house["area"] to get 2018, and so on.
+As you can see, using a dictionary improves the readability of the code. But, unlike tuples, you can always 
+modify values in a dictionary.
+
+And if you need to store descriptions for many such houses, you'll have to create as many dictionaries as 
+the number of houses there are, repeating the names of the keys every single time. This also makes your 
+code repetitive and not so interesting!
+
+With Python's NamedTuples, you can have both the immutability of tuples and the readability of dictionaries.
+from collections import namedtuple
+House = namedtuple("House",["city","country","year","area","num_rooms"])
+house_1 = House("Bangalore","India",2020,2018,4)
+house_2 = House("Chennai","India",2018,2050,3)
+
+Notice how you can use House as a template to create as many houses as you'd like, without having to type 
+out the names of the attributes each time you create a new house.
+
+Once you've created NamedTuple objects house_1 and house_2, you can use the dot notation to access their 
+values. The syntax is shown below:
+print(house_1.city)
+print(house_1.country)
+print(house_1.year)
+print(house_1.area)
+print(house_1.num_rooms)
+

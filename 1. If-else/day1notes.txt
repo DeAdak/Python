@@ -1,0 +1,80 @@
+Python programming
+
+Features of python language
+
+python is a high level programming language
+python is a interpreter
+python is slower than C++
+python is dynamically type
+object oriented programming
+garbage collector
+---- memory mgnt will be done by python
+----if a memory becomes unrefenced the release of memory will be done by garbage collector, 
+----developer need not worry about it
+Database connectivity can be done
+GUI programming can be done
+Multithreading
+web application (DJANGO, Flask)
+lot of third party tools support is avaialable
+extensible
+
+
+a=10  ----- type of 'a' is int
+
+a='Kishori' ----- type of variable will be string
+
+
+any 3.4.x is ok
+3.10 
+3.9
+
+
+3.4 
+2.7 ----very stable
+
+print()
+
+print "hello world!!"
+
+
+min 4 to5 lines in java
+
+print("hello world!")
+
+
+features
+It is dynamically type 
+no opening and closing {} 
+  if,while, for ----the code should be properly indented
+python code is always readable,maintainable, finding errors become easy.
+
+no semicolon is required at the end ---100 line
+condition need not be inside bracket
+
+
+whereis python.exe
+
+
+c:\system32> python ----->it opens python shell or REPL (Read execute print loop)
+
+>>>
+
+
+editors--- idle --- basic editor which comes with python
+           pycharm  -----  web applications ---DJango flask
+           spyder  ---- 
+           jupyter notebook
+
+VScode, sublime,Atom,notepad
+
+
+
+
+
+
+
+
+
+
+
+

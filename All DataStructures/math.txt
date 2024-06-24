@@ -1,0 +1,13 @@
+Method			Description
+math.ceil(value)	Rounds a number up to the nearest integer
+math.floor(value)	Rounds a number down to the nearest integer
+math.exp(x)		Returns E raised to the power of x
+math.fabs(x)		Returns the absolute value of a number, as a float
+math.factorial(x)	Returns the factorial of a number.
+math.fmod()		Returns the remainder of x/y, as a float
+math.fsum(iterable) 	Returns the sum of all items in any iterable (tuples, arrays, lists, etc.), as a float
+math.gcd(int1, int2) 	Returns the greatest common divisor of the two integers int1 and int2.
+math.comb(n, k) 	Returns the number of ways to choose k items from n items without repetition and order
+math.cos()		Returns the cosine of a number
+math.degrees(radian)	Converts an angle from radians to degrees
+math.dist(p, q)		Returns the Euclidean distance between two points (p and q), where p and q are the coordinates of that point
